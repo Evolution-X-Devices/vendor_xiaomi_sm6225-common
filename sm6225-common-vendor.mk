@@ -894,6 +894,9 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     DeviceInfo \
     ImsRcsService \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     QtiTelephonyService \
     atfwd \
     QtiTelephony \
