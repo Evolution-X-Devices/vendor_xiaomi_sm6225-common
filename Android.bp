@@ -415,6 +415,33 @@ dex_import {
 }
 
 dex_import {
+    name: "com.qualcomm.qti.imscmservice-V2.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "com.qualcomm.qti.imscmservice-V2.1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "com.qualcomm.qti.imscmservice-V2.2-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "dpmapi",
     owner: "xiaomi",
     jars: [
@@ -433,10 +460,100 @@ dex_import {
 }
 
 dex_import {
+    name: "vendor.qti.ims.callcapability-V1.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.callcapabilityaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.callcapabilityaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.callinfo-V1.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.configaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.configaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.configservice-V1.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.configservice-V1.1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "vendor.qti.ims.connection-V1.0-java",
     owner: "xiaomi",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.connectionaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.datachannelservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.datachannelservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.factory-V1.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.factory-V1.1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -469,6 +586,51 @@ dex_import {
 }
 
 dex_import {
+    name: "vendor.qti.ims.factoryaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsconfig-V1.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsconfig-V1.1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsconfig-V2.0-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsconfig-V2.1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "vendor.qti.ims.rcssip-V1.0-java",
     owner: "xiaomi",
     jars: [
@@ -496,6 +658,15 @@ dex_import {
 }
 
 dex_import {
+    name: "vendor.qti.ims.rcssipaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "vendor.qti.ims.rcsuce-V1.0-java",
     owner: "xiaomi",
     jars: [
@@ -518,6 +689,15 @@ dex_import {
     owner: "xiaomi",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "vendor.qti.ims.rcsuceaidlservice-V1-java",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -583,4 +763,18 @@ prebuilt_etc_xml {
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
+}
+
+install_symlink {
+    name: "system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so",
+    system_ext_specific: true,
+    installed_location: "priv-app/ims/lib/arm64/libimscamera_jni.so",
+    symlink_target: "/system_ext/lib64/libimscamera_jni.so",
+}
+
+install_symlink {
+    name: "system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so",
+    system_ext_specific: true,
+    installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
+    symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
